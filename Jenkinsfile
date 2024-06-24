@@ -23,7 +23,7 @@ pipeline {
             steps {
                 // Клонирование репозитория с тестами
                 dir('tests') {
-                    git url: 'https://github.com/dshumeiko/test.git', branch: 'main', credentialsId: 'github-credentials'
+                    git url: 'https://github.com/dshumeiko/test.git', branch: 'main'
                 }
             }
         }
