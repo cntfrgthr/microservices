@@ -7,7 +7,7 @@ import json
 
 
 from clickhouse_driver import Client
-
+#test
 app = FastAPI()
     
 clickhouse_conn = ClickhouseConnection()
